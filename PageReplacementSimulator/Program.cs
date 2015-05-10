@@ -24,7 +24,7 @@ namespace PageReplacementSimulator
                 return;
             }
 
-            Console.Write("Page requests? ");
+            Console.Write("Number of page requests? ");
             var requests = Cin.NextInt();
             if (requests < 1)
             {
